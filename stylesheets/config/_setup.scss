@@ -1,4 +1,18 @@
 body {
-  background-color: #181a1b;
-  color: #d3d3d3;
+  width: 65%;
+  margin: auto;
+  background-image: linear-gradient(to right, $white , $yellow);
+  font-family: $body-font;
+  height: 1px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: $black;
+}
+
+h1, h2, h3 {
+  font-family: $headers-font;
+}
+
+img {
+  max-width: 100%;
 }

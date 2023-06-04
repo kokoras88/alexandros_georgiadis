@@ -1,0 +1,21 @@
+.second {
+  margin: 200px 0px 300px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boy {
+  background-color: $red;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.text2 {
+  margin-left: 30px;
+  h1 {
+    max-width: 250px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+}
